@@ -1,7 +1,7 @@
 name: API tests
 
 on:
-  pull
+  pull_request
 
 
 jobs:

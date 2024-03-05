@@ -1,0 +1,27 @@
+name: API tests
+
+on:
+  pull
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Run Test
+        run: python main.py
+
+
+
+
+
+
+
+

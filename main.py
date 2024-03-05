@@ -30,7 +30,7 @@ if __name__ == "__main__":
         num_floors = int(input("Enter a level of the tree: ")) # Количество этажей елки
         output_filename = input("Enter a name of the output file: ") # Название выходного файла
 
-        create_tree(num_floors, output_filename) 
+        create_tree(num_floors, output_filename) # Создание елки
         print(f"'{output_filename}' File was created.")
     except Exception as e:
         print(f"Error occured: {e}")
